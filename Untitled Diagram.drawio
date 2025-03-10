@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="786" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1048" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -38,19 +38,200 @@
         <mxCell id="fmTlT0jWLPWlHy0CsH2C-11" value="MPF database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="540" y="60" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="fmTlT0jWLPWlHy0CsH2C-13" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="589.5" y="130" as="sourcePoint" />
-            <mxPoint x="589.5" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fmTlT0jWLPWlHy0CsH2C-14" value="查询基金信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-13">
-          <mxGeometry x="0.2" y="-1" relative="1" as="geometry">
-            <mxPoint x="42" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fmTlT0jWLPWlHy0CsH2C-15" value="数据库查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="540" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="270" as="sourcePoint" />
+            <mxPoint x="570" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-30" value="基金详情" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-18">
+          <mxGeometry x="-0.01" y="-2" relative="1" as="geometry">
+            <mxPoint x="-30" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-19" value="投资组合数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-20" value="MPF结构化解析" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="340" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <mxPoint x="470" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="310" as="sourcePoint" />
+            <mxPoint x="350" y="354" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="354" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-23" value="提取投资组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-22">
+          <mxGeometry x="0.0771" y="-1" relative="1" as="geometry">
+            <mxPoint x="-22" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-25" value="MPF标准化模型" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="470" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="fmTlT0jWLPWlHy0CsH2C-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="382.5" y="410" as="sourcePoint" />
+            <mxPoint x="382" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-27" value="使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-26">
+          <mxGeometry x="-0.3668" relative="1" as="geometry">
+            <mxPoint x="-31" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="190" as="sourcePoint" />
+            <mxPoint x="589.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-29" value="查询基金信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-28">
+          <mxGeometry x="0.1881" y="-3" relative="1" as="geometry">
+            <mxPoint x="37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-36" value="历史组合数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="380" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="320" as="sourcePoint" />
+            <mxPoint x="500" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-38" value="储存历史投资组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-37">
+          <mxGeometry x="-0.4889" y="1" relative="1" as="geometry">
+            <mxPoint x="24" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519.5" y="490" as="sourcePoint" />
+            <mxPoint x="520" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-42" value="读取历史组合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-39">
+          <mxGeometry x="0.0339" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-40" value="组合对比" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="490" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-43" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="320" as="sourcePoint" />
+            <mxPoint x="470" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="420" />
+              <mxPoint x="310" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-44" value="新旧组合分析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-43">
+          <mxGeometry x="-0.2243" y="-1" relative="1" as="geometry">
+            <mxPoint x="-22" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="fmTlT0jWLPWlHy0CsH2C-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="231" as="sourcePoint" />
+            <mxPoint x="600" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-48" value="年龄组资产配置/年龄组地域配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="260" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-49" value="可视化" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="345" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.087;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fmTlT0jWLPWlHy0CsH2C-19" target="fmTlT0jWLPWlHy0CsH2C-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="310" as="sourcePoint" />
+            <mxPoint x="600" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fmTlT0jWLPWlHy0CsH2C-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="300" as="sourcePoint" />
+            <mxPoint x="640" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-53" value="展示结果" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-54" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.85;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fmTlT0jWLPWlHy0CsH2C-40" target="fmTlT0jWLPWlHy0CsH2C-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="634.5" as="sourcePoint" />
+            <mxPoint x="500" y="584.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="634.5" />
+              <mxPoint x="480" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-55" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1.011;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.6;exitY=1.083;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fmTlT0jWLPWlHy0CsH2C-49" target="fmTlT0jWLPWlHy0CsH2C-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="580" as="sourcePoint" />
+            <mxPoint x="620" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="580" />
+              <mxPoint x="620" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-56" value="生成图表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-55">
+          <mxGeometry x="-0.0988" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-58" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="290" as="sourcePoint" />
+            <mxPoint x="135" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="135" y="460" />
+              <mxPoint x="110" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-59" value="生成建议" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fmTlT0jWLPWlHy0CsH2C-58">
+          <mxGeometry x="0.0838" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-60" value="投资建议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fmTlT0jWLPWlHy0CsH2C-60" target="fmTlT0jWLPWlHy0CsH2C-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="720" as="sourcePoint" />
+            <mxPoint x="270" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmTlT0jWLPWlHy0CsH2C-63" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="fmTlT0jWLPWlHy0CsH2C-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="580" />
+              <mxPoint x="340" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
